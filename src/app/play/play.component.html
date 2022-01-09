@@ -1,0 +1,46 @@
+<div class="container">
+
+<div class="container-1">
+
+  <div class="box bl bt" (click)="fun(1)" ><span class="boxtext">{{val1}}</span></div>
+  <div class="box bt"  (click)="fun(2)"><span class="boxtext">{{val2}}</span></div>
+  <div class="box bt br"  (click)="fun(3)"><span>{{val3}}</span></div>
+  <div class="box bl"  (click)="fun(4)"><span>{{val4}}</span></div>
+  <div class="box "  (click)="fun(5)"><span>{{val5}}</span></div>
+  <div class="box br"  (click)="fun(6)"><span>{{val6}}</span></div>
+  <div class="box bl bb"  (click)="fun(7)"><span>{{val7}}</span></div>
+  <div class="box bb"  (click)="fun(8)"><span>{{val8}}</span></div>
+  <div class="box bb br"  (click)="fun(9)"><span>{{val9}}</span></div>
+
+</div>
+
+</div>
+<div class="container">
+<div *ngIf="turn=='X' && draw==false && win==false">Turn For {{player1}}</div>
+<div *ngIf="turn=='O' && draw==false && win==false">Turn For {{player2}}</div>
+<div *ngIf="draw"><button class="bt1" >
+OOPS DRAW
+</button>
+<button class="bt2" (click)="play()">
+  Play Again
+</button></div>
+<div *ngIf="winner=='X'">
+  <button class="btn">{{player1}} WON
+</button>
+<div class="play">
+  <button class="bt2" (click)="play()">
+    Play Again
+  </button>
+</div>
+</div>
+<div *ngIf="winner=='O'">
+  <button class="btn">{{player2}} WON
+  </button>
+  <div class="play" (click)="play()">
+    <button class="bt2">
+      Play Again
+    </button>
+  </div>
+  </div>
+
+</div>

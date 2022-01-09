@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.toolbar
+{
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  flex: 1 1 auto;
+  background-color: cornflowerblue;
+  padding: auto;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  font-size: 3vw
+}

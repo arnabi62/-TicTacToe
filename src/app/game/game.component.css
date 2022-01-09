@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Outfit&display=swap');
+.mat-card {
+  width: 80%;
+  height: 100%;
+  background-color: rgb(241, 233, 233);
+  font-size: 2vw;
+  justify-content: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-family: 'Outfit', sans-serif;
+}
+.mat-card-image{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+  width: 80%;
+  height: 70%;
+}
+.mat-card-title
+{
+  margin-left: 4%;
+}
+.inp
+{
+  margin-left: 4%;
+  margin-right: 4%;
+  border-radius: 8px;
+  width: 80%;
+  height: 30px;
+  padding: 2% 2% 2% 2%;
+}
+.container
+{
+
+  font-size: 5vw;
+  justify-content: center;
+ display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: auto;
+ }
+
+
+ .table td{
+   margin-left: 2px;
+   margin-right: 2px;
+   padding: 2px 2px 2px 2px;
+ }
+.names
+{
+  font-size: 2vw;
+  font-family: 'Outfit', sans-serif;
+}
+.container-1
+{
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.bt1
+{
+  background-color: #4c56af; /* Green */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  margin-top: 5%;
+}

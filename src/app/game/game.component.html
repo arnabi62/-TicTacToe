@@ -1,0 +1,51 @@
+<div class="container">
+<table class="table">
+  <tr>
+    <td>
+      <mat-card>
+        <mat-card-title>Player 1:</mat-card-title>
+        <img mat-card-image src="../assets/man.jpg">
+        <mat-card-content>
+
+          <input matInput class="inp" type="text" placeholder="Enter Name" [(ngModel)]="player1">
+          <!-- <button class="bt">Submit</button> -->
+        </mat-card-content>
+
+      </mat-card>
+    </td>
+    <td>
+      <mat-card>
+        <mat-card-title>Player 2:</mat-card-title>
+        <img mat-card-image src="../assets/man.jpg">
+        <mat-card-content>
+
+          <input matInput class="inp" type="text" placeholder="Enter Name" [(ngModel)]="player2">
+
+            <!-- <button class="bt">Submit</button> -->
+
+
+        </mat-card-content>
+
+      </mat-card>
+    </td>
+  </tr>
+</table>
+</div>
+<br>
+<div class="container-1">
+<div *ngIf="player1.length>0 " class="names">
+Player 1: {{player1}}
+
+<br>
+<div *ngIf="player2.length>0 " class="names">
+  Player 2: {{player2}}
+  <br>
+  <button class="bt1" (click)="click()">
+    Let's Start
+  </button>
+</div>
+</div>
+
+
+</div>
+
